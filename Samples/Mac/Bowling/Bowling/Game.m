@@ -42,7 +42,7 @@
 #pragma mark Game Methods
 - (void)advanceFrame
 {
-	currentFrame = MIN(190, currentFrame + 1);
+	currentFrame = MIN(10, currentFrame + 1);
 }
 
 - (BOOL)adjustFrameForStrike:(int)pins
