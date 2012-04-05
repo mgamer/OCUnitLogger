@@ -385,6 +385,7 @@
 				GCC_PREFIX_HEADER = "Bowling/Bowling-Prefix.pch";
 				INFOPLIST_FILE = "Bowling/Bowling-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -403,6 +404,7 @@
 				GCC_PREFIX_HEADER = "Bowling/Bowling-Prefix.pch";
 				INFOPLIST_FILE = "Bowling/Bowling-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
